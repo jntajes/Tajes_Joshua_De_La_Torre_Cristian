@@ -22,13 +22,14 @@ public class OdontologoDAOH2 implements iDao<Odontologo>{
     public Odontologo guardar(Odontologo odontologo) {
         Connection connection=null;
         try {
+            logger.info("iniciando la operacion de guardar odontologo");
             connection= BD.getConnection();
             PreparedStatement psInsert= connection.prepareStatement(SQL_INSERT);
             psInsert.setInt(1,odontologo.getNumeroMatricula());
             psInsert.setString(2, odontologo.getNombre());
             psInsert.setString(3,odontologo.getApellido());
             psInsert.execute();
-            logger.info("se inserto el nuevo odontologo");
+            logger.info("se inserto el nuevo odontologo"+ odontologo.getNumeroMatricula());
         }catch (Exception e){
             logger.warn(e.getMessage());
         }
@@ -66,6 +67,7 @@ public class OdontologoDAOH2 implements iDao<Odontologo>{
         }catch (Exception e){
             logger.error(e.getMessage());
         }
+        logger.info("se agregaron correctamente el odontologo a lista: "+listaOdontologos);
         return listaOdontologos;
     }
 }

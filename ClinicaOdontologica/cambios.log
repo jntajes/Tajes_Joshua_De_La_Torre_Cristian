@@ -18,3 +18,23 @@ INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VA
 [2024-05-16 21:14:52] [ INFO ] [BD:29] tabla creada con exito
 [2024-05-16 21:14:52] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de buscado de un paciente con id : 2
 [2024-05-16 21:14:52] [ INFO ] [DomicilioDAOH2:22] iniciando la busqueda de un domicilio con id: 2
+[2024-05-16 22:27:16] [ INFO ] [BD:33] tabla creada con exito
+[2024-05-16 22:27:16] [ WARN ] [OdontologoDAOH2:33] Cannot invoke "java.lang.Integer.intValue()" because the return value of "model.Odontologo.getNumeroMatricula()" is null
+[2024-05-16 22:29:46] [ INFO ] [BD:33] tabla creada con exito
+[2024-05-16 22:29:46] [ INFO ] [OdontologoDAOH2:55] iniciando la operacion de listar todos los odontologos
+[2024-05-16 22:32:06] [ INFO ] [BD:33] tabla creada con exito
+[2024-05-16 22:32:06] [ WARN ] [OdontologoDAOH2:33] Cannot invoke "java.lang.Integer.intValue()" because the return value of "model.Odontologo.getNumeroMatricula()" is null
+[2024-05-16 22:32:06] [ WARN ] [OdontologoDAOH2:33] Cannot invoke "java.lang.Integer.intValue()" because the return value of "model.Odontologo.getNumeroMatricula()" is null
+[2024-05-16 22:32:06] [ WARN ] [OdontologoDAOH2:33] Cannot invoke "java.lang.Integer.intValue()" because the return value of "model.Odontologo.getNumeroMatricula()" is null
+[2024-05-16 22:32:06] [ INFO ] [OdontologoDAOH2:55] iniciando la operacion de listar todos los odontologos
+[2024-05-16 22:32:55] [ INFO ] [BD:33] tabla creada con exito
+[2024-05-16 22:32:55] [ WARN ] [OdontologoDAOH2:33] Cannot invoke "java.lang.Integer.intValue()" because the return value of "model.Odontologo.getNumeroMatricula()" is null
+[2024-05-16 22:32:55] [ WARN ] [OdontologoDAOH2:33] Cannot invoke "java.lang.Integer.intValue()" because the return value of "model.Odontologo.getNumeroMatricula()" is null
+[2024-05-16 22:32:55] [ WARN ] [OdontologoDAOH2:33] Cannot invoke "java.lang.Integer.intValue()" because the return value of "model.Odontologo.getNumeroMatricula()" is null
+[2024-05-16 22:32:55] [ INFO ] [OdontologoDAOH2:55] iniciando la operacion de listar todos los odontologos
+[2024-05-16 22:33:40] [ INFO ] [BD:33] tabla creada con exito
+[2024-05-16 22:33:40] [ INFO ] [OdontologoDAOH2:31] se inserto el nuevo odontologo
+[2024-05-16 22:33:40] [ INFO ] [OdontologoDAOH2:31] se inserto el nuevo odontologo
+[2024-05-16 22:33:40] [ INFO ] [OdontologoDAOH2:31] se inserto el nuevo odontologo
+[2024-05-16 22:33:40] [ INFO ] [OdontologoDAOH2:55] iniciando la operacion de listar todos los odontologos
+[2024-05-16 22:55:09] [ INFO ] [OdontologoDAOCollection:25] se inserto el nuevo odontologo a la lista
